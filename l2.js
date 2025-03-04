@@ -36,6 +36,11 @@ car2.drive = function(){
     console.log("I can drive anytime");
 }
 
+car1.drive();
+console.log("=======");
+car2.drive();
+console.log("=======");
+
 //1.2.7 Truck
 function Truck(color, weight, avgSpeed, brand, model){
     this.color = color;
